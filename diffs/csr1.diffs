@@ -1,0 +1,12 @@
++interface Loopback100
++ description OSPF ROUTER ID
++ ip address 1.1.1.2 255.255.255.255
+- no shutdown
++interface GigabitEthernet1
+- no shutdown
++interface GigabitEthernet2
+- no shutdown
++interface GigabitEthernet4
+- no shutdown
++router ospf 100
++ log-adjacency-changes

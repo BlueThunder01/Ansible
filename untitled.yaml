@@ -1,0 +1,16 @@
+csr1#sh run int Lo100
+Building configuration...
+
+Current configuration : 95 bytes
+!
+interface Loopback10
+ description added by Ansible
+ ip address 1.1.1.1 255.255.255.0
+end
+
+
+
+interface Loopback100
+ description OSPF ROUTER ID
+ ip address 10.200.1.20 255.255.255.0
+end
